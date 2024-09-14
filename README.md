@@ -30,8 +30,8 @@ Download the project files, install Python, and then install the required module
 ### 1. Edit Item Prices
 
 Open `items_editor.py` to edit the `items.json` file. Add items by full name like:
-- "Glock-18 | Water Elemental (Battle-Scarred)"
-- "★ Flip Knife | Doppler (Factory New)"
+- Glock-18 | Water Elemental (Battle-Scarred)
+- ★ Flip Knife | Doppler (Factory New)
 
 ---
 
