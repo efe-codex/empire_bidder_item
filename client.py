@@ -196,6 +196,10 @@ def bid(name,item_id,bid_value):
                 items = [item for item in items if item["id"] != item_id]
     except Exception as e:
         print(f"{Fore.RED}bid error: {e}{Style.RESET_ALL}")
+        try:
+            print(f"{Fore.RED}{c.status_code}:{c.json()}{Style.RESET_ALL}")
+        except:
+            print(f"{Fore.RED}{c}{Style.RESET_ALL}")
 
 threads = {}
 t=0
